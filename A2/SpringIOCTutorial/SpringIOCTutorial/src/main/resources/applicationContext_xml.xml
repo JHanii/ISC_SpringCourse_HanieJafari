@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="display" class="ir.freeland.spring.initialspring.xml.Display"/>
+  <bean id="calculator" class="ir.freeland.spring.initialspring.xml.Calculator"/>
+
+  <bean id="calculationConstructorInjection" class="ir.freeland.spring.initialspring.xml.CalculationConstructorInjection">
+    <constructor-arg name="calculator" ref="calculator"/>
+    <constructor-arg name="display" ref="display"/>
+  </bean>
+
+  <bean id="calculationSetterInjection" class="ir.freeland.spring.initialspring.xml.CalculationSetterInjection">
+    <property name="calculator" ref="calculator"/>
+    <property name="display" ref="display"/>
+  </bean>
+</beans>
