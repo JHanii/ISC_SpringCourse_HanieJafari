@@ -2,17 +2,13 @@
    <body>
       
       <form action = "result" method = "Post">
-         First Name: <input type = "text" name = "first_name">
+         First Name: <input type = "text" name = "firstName">
          <br />
-         Last Name: <input type = "text" name = "last_name" />
-		 
-		 <input type = "checkbox" name = "maths" checked = "checked" /> Maths
-          <input type = "checkbox" name = "physics"  /> Physics
-          <input type = "checkbox" name = "chemistry" checked = "checked" /> Chemistry
-		  <br />  
+         Last Name: <input type = "text" name = "lastName" />
+		 <br />
+		 Date of Birth: <input type="date" id="date" name = "birthDate">
+		 <br />  
          <input type = "submit" value = "Submit" />
-		 
-		 
       </form>
       
    </body>

@@ -35,4 +35,14 @@ public class SampleController {
     public String showResult() {
         return "result";
     }
+    
+    @GetMapping("/assignmentRegisterform")
+    public String showAssignmentRegisterForm() {
+        return "assignmentRegisterform";
+    }
+    
+    @PostMapping("/assignmentResult")
+    public String showAssignmentResult() {
+        return "assignmentResult";
+    }
 }
