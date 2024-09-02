@@ -21,7 +21,8 @@ import ir.freeland.springboot.relation.onetoone.jointable.JointableRun;
 @EnableJpaRepositories("ir.freeland.springboot.persistence.repo")
 @EntityScan(basePackages =  {"ir.freeland.springboot.persistence.model",
 							 "ir.freeland.springboot.relation",
-							 "ir.freeland.springboot.persistence.converter"})
+							 "ir.freeland.springboot.persistence.converter"
+							 ,"ir.freeland.springboot.assignment"})
 public class SpringJPAApplication {
 
 
