@@ -1,0 +1,5 @@
+<!ELEMENT student (studentID,firstName,lastName,enteranceYear)>
+<!ELEMENT studentID (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT enteranceYear (#PCDATA)>

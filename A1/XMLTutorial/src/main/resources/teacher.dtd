@@ -1,0 +1,5 @@
+<!ELEMENT teacher (teacherID,firstName,lastName,age)>
+<!ELEMENT teacherID (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
