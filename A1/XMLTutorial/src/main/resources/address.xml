@@ -1,0 +1,13 @@
+<address>
+	<name>
+		<first>Rohit</first>
+		<last>Sharma</last>
+	</name>
+	<email>sharmarohit@gmail.com</email>
+	<phone>9876543210</phone>
+	<birthday>
+		<year>1987</year>
+		<month>June</month>
+		<day>23</day>
+	</birthday>
+</address> 

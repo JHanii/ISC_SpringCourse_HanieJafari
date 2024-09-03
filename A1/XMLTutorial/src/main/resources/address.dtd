@@ -1,0 +1,10 @@
+<!ELEMENT address (name, email, phone, birthday)>
+<!ELEMENT name (first, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT birthday (year, month, day)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
