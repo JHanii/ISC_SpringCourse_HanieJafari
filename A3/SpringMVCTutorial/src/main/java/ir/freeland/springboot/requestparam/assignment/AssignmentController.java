@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,7 +28,7 @@ public class AssignmentController {
     }
     
     //Post Create Book
-    @PostMapping("/post/book/create")
+    @PostMapping(value="/post/book/create",produces=MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String addBook(@RequestParam(name = "id") String bookId, @RequestParam String name){ 
         return "ID: " + bookId;

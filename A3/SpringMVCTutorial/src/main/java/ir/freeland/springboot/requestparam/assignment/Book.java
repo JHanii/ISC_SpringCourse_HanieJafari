@@ -64,10 +64,13 @@ public class Book {
 
 	public void update(Book book) {
 		// TODO Auto-generated method stub
-		this.id = id;
-		this.name = book.name;
-		this.price = book.price;
-		this.available = book.available;
+		if(book != null)
+		{
+			this.id = id;
+			this.name = book.name;
+			this.price = book.price;
+			this.available = book.available;
+		}
 	}
 
 
