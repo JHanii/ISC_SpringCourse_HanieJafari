@@ -1,0 +1,18 @@
+file: new: other: server: apache: 10.1 -> tomcat
+proj -> right click -> properties -> lib -< remove -< add ex jar
+Deploy? 
+prop -> facets -> java + dynamic web module
+
+az view server -> tab module -> add web modules -> module example proje entekhab + path / -> dobare chon khenge
+
+roo server right-click + start
+too browser -> 127.0.01:8080
+
+soap ui
++ applicationWebService run
+new soap proj + wsdl add
+jaye ? input -> out
+
+
+request.getParameter
+request.getParameterValues
